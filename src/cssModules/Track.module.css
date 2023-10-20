@@ -1,0 +1,56 @@
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lora', serif;
+}
+
+.outterContainer{
+background-color: rgb(232, 247, 248);
+width: 100vw;
+height:80vh;
+display: flex;
+flex-wrap: wrap;
+}
+
+.innerContainer{
+    background-color: #e6c928;
+    width: 166px;
+    height:150px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    box-shadow: 1px 1.5px 0.5px 0.5px;
+    border-radius: 15px;
+}
+
+.trackBtn button{
+    margin-top: 40px;
+    margin:40px 0px 0 0;
+    padding:5px;
+}
+
+.trackBtn img{
+    width:25px;
+    margin-top: 40px;
+    margin:40px 0px 0 0;
+    padding:5px;
+}
+
+.backBtn{
+    margin-left: 47vw;
+    padding: 10px 15px 10px 15px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    border: none;
+    color:rgb(42, 64, 83);
+    border-radius: 25px;
+    box-shadow: 1px 1.5px 0.5px 0.5px;
+    background-color: rgb(6, 248, 107);
+    font-family: 'Lora', serif;
+}
+
+.backBtn:hover{
+cursor: pointer;
+box-shadow: 1px 1.5px 1px 1.5px;
+}

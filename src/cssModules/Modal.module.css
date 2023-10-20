@@ -1,0 +1,72 @@
+.underlay{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    background-color: rgb(83, 69, 69,0.4);
+}
+
+.modalContainer{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(162, 240, 240);
+    height:25vw;
+    width:80vh;
+    font-family: 'Lora', serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 8px 8px 8px 8px;
+    border-radius: 5px;
+}
+
+.modalContainer h3{
+    
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.55rem;
+    font-weight: 600;
+}
+
+.modalContainer input{
+    position: relative;
+    top:15%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.6rem;
+    font-weight: 500;
+    box-shadow: 8px 8px 8px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.modalContainer input:hover{
+    box-shadow: 6px 6px 6px;
+}
+
+.modalContainer button{
+    position: relative;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 11px;
+    padding: 10px 24px 10px 24px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    border: none;
+    background-color: rgb(19, 18, 16);
+    color:rgb(242, 243, 245);
+    border-radius: 5px;
+    box-shadow: 1px 1.5px 0.5px 0.5px;
+
+}
+
+.modalContainer button:hover{
+    cursor: pointer;
+    background-color: rgb(39, 16, 16);
+    box-shadow: 2px 1.5px 1px 1.5px;
+
+}
+

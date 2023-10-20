@@ -1,0 +1,29 @@
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.addBtn{
+    margin: 15px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 500;
+    font-size: 1.15rem;
+    border: none;
+    background-color: rgb(252, 143, 0);
+    color:rgb(42, 64, 83);
+    border-radius: 25px;
+    box-shadow: 1px 1.5px 0.5px 0.5px;
+}
+
+.addBtn:hover{
+cursor: pointer;
+box-shadow: 1px 1.5px 1px 1.5px;
+}
+
+.NavLink{
+    text-decoration: none;
+}

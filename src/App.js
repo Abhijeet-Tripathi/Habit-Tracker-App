@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Track from './components/Track';
+import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  //creating routes 
+  const router = createBrowserRouter([//we are using react-rod here
+    {
+      path: '/',
+      element: (
+        <>
+          <Navbar  />
+          <Home />
+        </>
+      ),
+    },
+    { path: '/track',// route for '/track
+    element: (
+      <>
+          <Navbar />
+          <Track />
+      </>
+    ), },
+  ]);
+
+return (
+    <>
+    {/* passing created router as props to RouterProvider */}
+   <RouterProvider router={router} />
+    
+    </>
+    
   );
 }
 
